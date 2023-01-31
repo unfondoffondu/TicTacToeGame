@@ -101,7 +101,7 @@ public class TicTacToe extends Application {
         Button btnAddPlayer = new Button("Add Player");
         btnAddPlayer.setMaxWidth(Double.MAX_VALUE);
         btnAddPlayer.setOnAction((event) -> {
-            //TODO: Add logic into players to make sure we can't add the same player or marker twice
+            //TOD O: Add logic into players to make sure we can't add the same player or marker twice
             String name = tfPlayerName.getText();
             String marker = tfMarker.getText();
             int turn = this.players.size();
